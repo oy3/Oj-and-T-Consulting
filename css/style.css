@@ -2746,10 +2746,10 @@ article .blog-author h4 {
   text-transform: uppercase;
 }
 
-.clients_area .short-line{
+.clients_area .short-line {
   width: 100px;
   height: 5px;
-  background:#f8b81d; 
+  background: #f8b81d;
   margin: 0 auto;
 }
 
@@ -2785,3 +2785,119 @@ article .blog-author h4 {
 
 /* End Clients area css
 ============================================================================================ */
+
+.blog-entry2 {
+  background: #fff;
+}
+
+@media (min-width: 768px) {
+  .blog-entry2 {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .blog-entry2 {
+    margin-bottom: 30px;
+  }
+}
+
+.blog-entry2 .text {
+  border: 2px dashed #dbe9fe;
+  border-left: 2px solid #dbe9fe;
+  border-bottom: 2px solid #dbe9fe;
+  position: relative;
+  border-top: 0;
+  border-radius: 2px;
+}
+
+.blog-entry2 .text:before, .blog-entry2 .text:after {
+  position: absolute;
+  content: "";
+  background: #dbe9fe;
+}
+
+.blog-entry2 .text:after {
+  bottom: 0;
+  right: -2px;
+  width: 2px;
+  height: 80px;
+}
+
+.blog-entry2 .text .heading {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.blog-entry2 .text .heading a {
+  color: #000;
+}
+
+.blog-entry2 .text .heading a:hover, .blog-entry2 .text .heading a:focus, .blog-entry2 .text .heading a:active {
+  color: #0962ea;
+}
+
+.blog-entry2 .text .meta-chat {
+  color: #cccccc;
+}
+
+.blog-entry2 .meta>div {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.blog-entry2 .meta>div a {
+  color: #cccccc;
+  font-size: 15px;
+}
+
+.blog-entry2 .meta>div a:hover {
+  color: #cccccc;
+}
+
+.block-27 ul {
+  padding: 0;
+  margin: 0;
+}
+
+.block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.block-27 ul li a, .block-27 ul li span {
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+}
+
+.block-27 ul li.active a, .block-27 ul li.active span {
+  background: #0962ea;
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 250px;
+  position: relative;
+  display: block;
+}
+
+.p-4 {
+  padding: 1.5rem !important;
+}
+
+.mt-5, .my-5 {
+  margin-top: 3rem !important;
+}
